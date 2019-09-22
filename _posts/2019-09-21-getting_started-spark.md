@@ -48,8 +48,11 @@ scala>
 ```
 ## Trouble Shooting
 Incase spark-shell fails to run and several error messages pop up,add the following environment variables.
+
 SPARK_HOME = "location where Spark has been extracted to eg- /usr/local/spark"
+
 PYSPARK_PYTHON= "Location of the python binary used by spark"
+
 JAVA_HOME="Location of java binary"
 
-If the execution of **spark-submit <file_name>.py**, returns a FileNotFound error for file:/<path_to_python_file>.py. Ensure that the path doesn't contain white spaces. Scala doesn't handle whitespaces in directory names well.
+If the execution of **spark-submit** **file_name>.py** , returns a FileNotFound error for file:/<path_to_python_file>.py. Ensure that the path doesn't contain white spaces. Scala doesn't handle whitespaces in directory names well.
