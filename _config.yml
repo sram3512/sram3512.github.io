@@ -28,7 +28,9 @@ plugins:
   - jekyll-feed
 
 collections:
-    - csci538ClimateChange
+    csci538ClimateChange:
+        output: true
+    
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
