@@ -1,0 +1,9 @@
+---
+layout: page
+title: ClimateChange AR/VR Blog 
+---
+{% for site in site.csci538ClimateChange %}
+  <div class="site">
+    <h2><a href="{{ site.url }}">{{ site.title }}</a></h2>
+  </div>
+{% endfor %}
