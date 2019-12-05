@@ -1,7 +1,7 @@
 <h1 id="progress">Progress</h1>
-<p>The leica scans have been cataloged and archieved in their desired location. The mountain goat scans were cropped and feed through the PointCloud-VR pipeline. There are about 17 Million points for the mountain goat exhibit. A team branched off to explore cropping and converting the background painted image in the diorama to mesh. They could convert the background to a ply file, but faced some obstacles on the way. The photogrammetry of the caribou exhibit was completed and an obj file was provided to us, shout out to Ralston and Eric Hanson for providing us the data. The AR team are currently making headway into uploading obj file into their mobile AR application.</p>
+<p>The leica scans have been cataloged and archived in their desired location. The mountain goat scans were cropped and feed through the PointCloud-VR pipeline. There are about 17 Million points for the mountain goat exhibit. A team branched off to explore cropping and converting the background painted image in the diorama to mesh. They could convert the background to a ply file but faced some obstacles on the way. The photogrammetry of the caribou exhibit was completed and an obj file was provided to us, shout out to Ralston and Eric Hanson for providing us the data. The AR team are currently making headway into uploading obj file into their mobile AR application.</p>
 <h1 id="challenges">Challenges</h1>
-<p>The mesh generation of the background was a time consuming processing which didn’t produce the desired results. In order to generate the mesh , we utilized meshlab to implement the ball rolling algorithm. This algorithm creates a ball of specified radius at a random seed location and moves along its radius, constructing triangles as it “rolls”. Unfortunately this algorithm is not able to create the complete triangular mesh for 2d background objects.
+<p>The mesh generation of the background was a time-consuming processing which didn’t produce the desired results. In order to generate the mesh, we utilized meshlab to implement the ball rolling algorithm. This algorithm creates a ball of specified radius at a random seed location and moves along its radius, constructing triangles as it “rolls”. Unfortunately, this algorithm is not able to create the complete triangular mesh for 2d background objects.
 The second major roadblock for the team was the subpar quality of the mountain goat rendering in VR and ReCAP. There are two possible reasons for this:</p>
 <ul>
   <li>The mountain goats are much smaller than the caribous, so the level of capture detail is significantly lower.</li>
@@ -14,7 +14,7 @@ The second major roadblock for the team was the subpar quality of the mountain g
     <p>Crop the caribou obj file to use the background</p>
   </li>
   <li>
-    <p>Extract texture from the caribou background and create additional textures..</p>
+    <p>Extract texture from the caribou background and create additional textures.</p>
   </li>
   <li>
     <p>Introduce the mesh object into the VR scene and change the textures on a trigger.</p>
@@ -23,6 +23,6 @@ The second major roadblock for the team was the subpar quality of the mountain g
     <p>Work on Sound/Narration and Particle effects in Unreal engine.</p>
   </li>
   <li>
-    <p>Add mud component to the PointCloud Caribou (strech goal).</p>
+    <p>Add mud component to the Point Cloud Caribou (stretch goal).</p>
   </li>
 </ul>
